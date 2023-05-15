@@ -25,6 +25,10 @@ set ruler
 set updatetime=2000
 set signcolumn=auto
 
+set number
+set cursorline
+set cursorlineopt=number
+
 set wildmenu
 set wildmode=longest,list,full
 
