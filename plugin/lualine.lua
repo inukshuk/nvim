@@ -1,13 +1,17 @@
-vim.cmd 'packadd lualine'
-vim.cmd 'packadd dev-icons'
-vim.cmd 'packadd lush'
-vim.cmd 'packadd zenbones'
-
-vim.cmd 'set termguicolors'
-vim.cmd 'colorscheme zenbones'
+vim.cmd [[
+  packadd lualine
+  packadd dev-icons
+  packadd lush
+  packadd zenbones
+  set termguicolors
+  colorscheme zenbones
+]]
 
 vim.g.zenbones = {
   lightness = 'bright',
+  darkness = 'warm',
+  darken_noncurrent_window = true,
+  lighten_noncurrent_window = true,
   transparent_background = true
 }
 

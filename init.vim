@@ -43,3 +43,29 @@ set modelines=5
 set mouse=a
 
 set encoding=utf-8
+
+" Use space as leader
+map <space> <leader>
+
+" Split lines (reverse join)
+nmap K r<enter><esc>f<space>
+
+" Fast saving...
+com Wq wq
+com WQ wq
+com W w
+
+augroup remember_position
+  au!
+  au BufReadPost * call setpos('.', getpos("'\""))
+augroup end
+
+augroup extra_space
+  au!
+  au BufWinEnter * match Error /\s\+$\| \+ze\t/
+  au InsertEnter * match Error /\s\+\%#\@<!$/
+  au InsertLeave * match Error /\s\+$\| \+ze\t/
+  au BufWinLeave * call clearmatches()
+augroup end
+
+set exrc
