@@ -17,7 +17,7 @@
 	path = pack/core/start/repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "pack/dev/start/gitgutter"]
-	path = pack/ui/opt/gitgutter
+	path = pack/vim/opt/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "pack/dev/start/commentary"]
 	path = pack/dev/start/commentary
@@ -47,7 +47,7 @@
 	path = pack/colors/opt/solarized
 	url = https://github.com/ericbn/vim-solarized.git
 [submodule "pack/ui/opt/lightline"]
-	path = pack/ui/opt/lightline
+	path = pack/vim/opt/lightline
 	url = https://github.com/itchyny/lightline.vim.git
 [submodule "pack/dev/opt/ale"]
 	path = pack/dev/opt/ale
@@ -68,3 +68,6 @@
 [submodule "pack/neo/opt/gitsigns"]
 	path = pack/neo/opt/gitsigns
 	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "pack/dev/opt/vala"]
+	path = pack/dev/opt/vala
+	url = https://github.com/vala-lang/vala.vim.git
