@@ -55,6 +55,12 @@ com Wq wq
 com WQ wq
 com W w
 
+" Cut using `x` (use `dl` to delete one character)
+nnoremap x d
+xnoremap x d
+nnoremap xx dd
+nnoremap X D
+
 augroup remember_position
   au!
   au BufReadPost * call setpos('.', getpos("'\""))
