@@ -1,10 +1,4 @@
-filetype plugin indent on
-syntax on
-
-runtime macros/matchit.vim
-
 set autoindent
-set backspace=indent,eol,start
 set whichwrap=b,s
 set hidden
 
@@ -15,12 +9,10 @@ set expandtab
 
 set nowrap
 
-set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
-set ruler
 
 set updatetime=2000
 set signcolumn=auto
@@ -29,7 +21,6 @@ set number
 set cursorline
 set cursorlineopt=number
 
-set wildmenu
 set wildmode=longest,list,full
 
 set wildignore+=*.o,*.obj,*.so,*.swp,*.zip,*.exe

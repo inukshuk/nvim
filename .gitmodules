@@ -80,3 +80,6 @@
 [submodule "pack/core/start/subversive"]
 	path = pack/core/start/subversive
 	url = https://github.com/svermeulen/vim-subversive.git
+[submodule "pack/core/start/sensible"]
+	path = pack/core/start/sensible
+	url = https://github.com/tpope/vim-sensible.git
