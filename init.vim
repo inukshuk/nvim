@@ -46,11 +46,37 @@ com Wq wq
 com WQ wq
 com W w
 
-" Cut using `x` (use `dl` to delete one character)
+packadd cutlass
+" `x` (use `dl` to delete one character)
 nnoremap x d
 xnoremap x d
 nnoremap xx dd
 nnoremap X D
+
+packadd yoink
+nmap <c-p> <plug>(YoinkPostPasteSwapBack)
+nmap <c-n> <plug>(YoinkPostPasteSwapForward)
+nmap p <plug>(YoinkPaste_p)
+nmap P <plug>(YoinkPaste_P)
+" Also replace the default gp with yoink paste so we can toggle paste in this case too
+nmap gp <plug>(YoinkPaste_gp)
+nmap gP <plug>(YoinkPaste_gP)
+nmap [y <plug>(YoinkRotateBack)
+nmap ]y <plug>(YoinkRotateForward)
+nmap <c-=> <plug>(YoinkPostPasteToggleFormat)
+let g:yoinkIncludeDeleteOperations = 1
+
+packadd subversive
+" `s` for substitute (use `sl` to sub one character)
+nmap s <plug>(SubversiveSubstitute)
+nmap ss <plug>(SubversiveSubstituteLine)
+nmap S <plug>(SubversiveSubstituteToEndOfLine)
+nmap <leader>s <plug>(SubversiveSubstituteRange)
+xmap <leader>s <plug>(SubversiveSubstituteRange)
+nmap <leader>ss <plug>(SubversiveSubstituteWordRange)
+xmap s <plug>(SubversiveSubstitute)
+xmap p <plug>(SubversiveSubstitute)
+xmap P <plug>(SubversiveSubstitute)
 
 augroup remember_position
   au!

@@ -69,16 +69,16 @@
 	path = pack/dev/opt/vala
 	url = https://github.com/vala-lang/vala.vim.git
 [submodule "pack/core/start/cutlass"]
-	path = pack/core/start/cutlass
+	path = pack/core/opt/cutlass
 	url = https://github.com/svermeulen/vim-cutlass.git
 [submodule "pack/colors/opt/solarized"]
 	path = pack/colors/opt/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "pack/core/start/yoink"]
-	path = pack/core/start/yoink
+	path = pack/core/opt/yoink
 	url = https://github.com/svermeulen/vim-yoink.git
 [submodule "pack/core/start/subversive"]
-	path = pack/core/start/subversive
+	path = pack/core/opt/subversive
 	url = https://github.com/svermeulen/vim-subversive.git
 [submodule "pack/core/start/sensible"]
 	path = pack/core/start/sensible
