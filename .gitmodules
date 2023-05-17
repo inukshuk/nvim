@@ -83,3 +83,9 @@
 [submodule "pack/core/start/sensible"]
 	path = pack/core/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "pack/core/start/sneak"]
+	path = pack/core/start/sneak
+	url = https://github.com/justinmk/vim-sneak.git
+[submodule "pack/neo/opt/which-key"]
+	path = pack/neo/opt/which-key
+	url = https://github.com/folke/which-key.nvim.git
