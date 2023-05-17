@@ -43,9 +43,6 @@
 [submodule "pack/colors/opt/paper"]
 	path = pack/colors/opt/paper
 	url = https://github.com/YorickPeterse/vim-paper.git
-[submodule "pack/colors/opt/solarized"]
-	path = pack/colors/opt/solarized
-	url = https://github.com/ericbn/vim-solarized.git
 [submodule "pack/ui/opt/lightline"]
 	path = pack/vim/opt/lightline
 	url = https://github.com/itchyny/lightline.vim.git
