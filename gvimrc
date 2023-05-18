@@ -7,12 +7,13 @@ set background=light
 colorscheme zenbones
 
 packadd ale
-packadd gitgutter
-packadd lightline
 
-let g:lightline.colorscheme = 'solarized'
+packadd gitgutter
+set updatetime=200
+
+packadd lightline
 set noshowmode
-set timeoutlen=200
+let g:lightline.colorscheme = 'solarized'
 
 if has('unix')
   if has('mac')
