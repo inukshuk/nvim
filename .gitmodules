@@ -92,3 +92,7 @@
 [submodule "pack/core/opt/gnupg"]
 	path = pack/core/opt/gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
+[submodule "pack/core/start/argwrap"]
+	path = pack/core/start/argwrap
+	url = https://github.com/FooSoft/vim-argwrap.git
+  ignore = dirty
