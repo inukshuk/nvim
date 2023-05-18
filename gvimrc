@@ -11,6 +11,7 @@ packadd gitgutter
 packadd lightline
 
 let g:lightline.colorscheme = 'solarized'
+set noshowmode
 set timeoutlen=200
 
 if has('unix')

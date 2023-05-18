@@ -7,6 +7,8 @@ vim.cmd [[
   colorscheme zenbones
 ]]
 
+vim.o.showmode = false
+
 vim.g.zenbones = {
   lightness = 'bright',
   darkness = 'warm',
