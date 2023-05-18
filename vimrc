@@ -5,7 +5,4 @@ set hlsearch
 set mouse=nvi
 set whichwrap=b,s
 
-"augroup remember_position
-"  au!
-"  au BufReadPost * call setpos('.', getpos("'\""))
-"augroup end
+colorscheme komau

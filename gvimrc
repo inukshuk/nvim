@@ -7,10 +7,15 @@ set background=light
 packadd zenbones
 colorscheme zenbones
 
-packadd ale
-
+set updatetime=250
+let g:gitgutter_sign_added = '│'
+let g:gitgutter_sign_modified = '│'
+let g:gitgutter_sign_removed = '_'
+let g:gitgutter_sign_removed_first_line = '‾'
+let g:gitgutter_sign_modified_removed = '~'
 packadd gitgutter
-set updatetime=200
+
+packadd ale
 
 packadd lightline
 set noshowmode
