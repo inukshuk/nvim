@@ -96,3 +96,6 @@
 	path = pack/core/start/argwrap
 	url = https://github.com/FooSoft/vim-argwrap.git
   ignore = dirty
+[submodule "pack/colors/opt/monochrome"]
+	path = pack/colors/opt/monochrome
+	url = https://github.com/kdheepak/monochrome.nvim.git
