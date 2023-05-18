@@ -1,3 +1,3 @@
-vim.cmd 'packadd gitsigns'
+vim.cmd.packadd 'gitsigns'
 
 require('gitsigns').setup()

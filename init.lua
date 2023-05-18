@@ -1,0 +1,5 @@
+require 'config.colors'
+require 'config.lualine'
+require 'config.gitsigns'
+require 'config.which-key'
+require 'config.alpha'
