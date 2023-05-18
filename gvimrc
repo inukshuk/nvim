@@ -4,6 +4,7 @@ set guioptions+=LlRrb
 set guioptions-=LlRrb
 
 set background=light
+packadd zenbones
 colorscheme zenbones
 
 packadd ale
@@ -13,7 +14,9 @@ set updatetime=200
 
 packadd lightline
 set noshowmode
-let g:lightline.colorscheme = 'solarized'
+let g:lightline = {
+  \ 'colorscheme': 'zenbones'
+  \ }
 
 if has('unix')
   if has('mac')
