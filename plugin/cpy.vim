@@ -3,6 +3,9 @@ if exists('loaded_copy_paste')
 endif
 let loaded_copy_paste = 1
 
+vmap <c-c> "+y
+vmap <leader>c "+y
+
 packadd cutlass
 packadd yoink
 
