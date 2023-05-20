@@ -1,5 +1,6 @@
 require 'config.colors'
 require 'config.lualine'
 require 'config.gitsigns'
+require 'config.telescope'
 require 'config.which-key'
 require 'config.alpha'
