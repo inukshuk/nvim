@@ -99,3 +99,9 @@
 [submodule "pack/colors/opt/monochrome"]
 	path = pack/colors/opt/monochrome
 	url = https://github.com/kdheepak/monochrome.nvim.git
+[submodule "pack/neo/opt/plenary"]
+	path = pack/neo/opt/plenary
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "pack/neo/opt/telescope"]
+	path = pack/neo/opt/telescope
+	url = https://github.com/nvim-telescope/telescope.nvim.git
