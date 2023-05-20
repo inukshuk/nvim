@@ -105,3 +105,6 @@
 [submodule "pack/neo/opt/telescope"]
 	path = pack/neo/opt/telescope
 	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule "pack/neo/opt/treesitter"]
+	path = pack/neo/opt/treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
