@@ -111,3 +111,6 @@
 [submodule "pack/dev/opt/dadbod"]
 	path = pack/dev/opt/dadbod
 	url = https://github.com/tpope/vim-dadbod.git
+[submodule "pack/core/start/dispatch"]
+	path = pack/core/start/dispatch
+	url = https://github.com/tpope/vim-dispatch.git
