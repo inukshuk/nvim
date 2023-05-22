@@ -108,3 +108,6 @@
 [submodule "pack/neo/opt/treesitter"]
 	path = pack/neo/opt/treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "pack/dev/opt/dadbod"]
+	path = pack/dev/opt/dadbod
+	url = https://github.com/tpope/vim-dadbod.git
