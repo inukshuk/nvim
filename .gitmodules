@@ -114,3 +114,6 @@
 [submodule "pack/core/start/dispatch"]
 	path = pack/core/start/dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "pack/neo/opt/lint"]
+	path = pack/neo/opt/lint
+	url = https://github.com/mfussenegger/nvim-lint.git
