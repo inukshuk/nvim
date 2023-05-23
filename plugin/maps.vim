@@ -9,6 +9,10 @@ map <space> <leader>
 " Split lines (reverse join)
 nmap K r<enter><esc>f<space>
 
+" Use s to sneak
+nmap s <Plug>Sneak_s
+nmap S <Plug>Sneak_S
+
 " Alt-splits navigation
 nnoremap <a-h> <c-w>h
 nnoremap <a-j> <c-w>j
