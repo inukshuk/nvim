@@ -3,13 +3,15 @@ if exists('loaded_copy_paste')
 endif
 let loaded_copy_paste = 1
 
+nmap <c-v> "+p
+vmap <leader>p "+p
 vmap <c-c> "+y
 vmap <leader>c "+y
 
+let g:yoinkIncludeDeleteOperations = 1
+
 packadd cutlass
 packadd yoink
-
-let g:yoinkIncludeDeleteOperations = 1
 
 " `x` to cut (use `dl` to delete one character)
 nnoremap x d
