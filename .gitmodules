@@ -117,3 +117,9 @@
 [submodule "pack/neo/opt/lint"]
 	path = pack/neo/opt/lint
 	url = https://github.com/mfussenegger/nvim-lint.git
+[submodule "pack/neo/opt/lspconfig"]
+	path = pack/neo/opt/lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "pack/dev/opt/bundler"]
+	path = pack/dev/opt/bundler
+	url = https://github.com/tpope/vim-bundler.git
