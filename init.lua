@@ -1,3 +1,4 @@
+require 'config.treesitter'
 require 'config.colors'
 require 'config.lualine'
 require 'config.gitsigns'
