@@ -87,7 +87,7 @@
 	path = pack/neo/opt/which-key
 	url = https://github.com/folke/which-key.nvim.git
 [submodule "pack/core/opt/gnupg"]
-	path = pack/core/opt/gnupg
+	path = pack/core/start/gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
 [submodule "pack/core/start/argwrap"]
 	path = pack/core/start/argwrap
