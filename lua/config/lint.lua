@@ -4,8 +4,6 @@ local lint = require('lint')
 
 lint.linters_by_ft = {
   markdown = { 'vale' },
-  javascript = { 'eslint' },
-  lua = { 'selene' },
   text = { 'vale' },
   sh = { 'shellcheck' }
 }
