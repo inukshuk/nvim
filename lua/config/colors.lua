@@ -7,7 +7,7 @@ vim.o.termguicolors = true
 
 require('gruvbox').setup {
   contrast = 'soft',
-  dim_inactive = true,
+  dim_inactive = false,
   transparent_mode = true
 }
 
