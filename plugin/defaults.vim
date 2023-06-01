@@ -1,4 +1,5 @@
 set number
+set signcolumn=yes
 set nowrap
 
 set cursorline
