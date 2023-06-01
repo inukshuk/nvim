@@ -59,9 +59,6 @@
 [submodule "pack/colors/opt/nord"]
 	path = pack/colors/opt/nord
 	url = https://github.com/kunzaatko/nord.nvim.git
-[submodule "pack/colors/opt/onedarkpro"]
-	path = pack/colors/opt/onedarkpro
-	url = https://github.com/olimorris/onedarkpro.nvim.git
 [submodule "pack/neo/opt/gitsigns"]
 	path = pack/neo/opt/gitsigns
 	url = https://github.com/lewis6991/gitsigns.nvim.git
@@ -123,3 +120,6 @@
 [submodule "pack/colors/opt/solarized8"]
 	path = pack/colors/opt/solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "pack/colors/opt/gruvbox"]
+	path = pack/colors/opt/gruvbox
+	url = https://github.com/ellisonleao/gruvbox.nvim
