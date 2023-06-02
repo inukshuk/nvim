@@ -123,3 +123,6 @@
 [submodule "pack/colors/opt/gruvbox"]
 	path = pack/colors/opt/gruvbox
 	url = https://github.com/ellisonleao/gruvbox.nvim
+[submodule "pack/colors/bruin"]
+	path = pack/colors/bruin
+	url = https://git.sr.ht/~romainl/vim-bruin
