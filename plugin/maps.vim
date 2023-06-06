@@ -13,6 +13,10 @@ nmap K r<enter><esc>f<space>
 nmap s <Plug>Sneak_s
 nmap S <Plug>Sneak_S
 
+" Better up/down navigation in wrapped lines
+noremap <expr> j v:count ? 'j' : 'gj'
+noremap <expr> k v:count ? 'k' : 'gk'
+
 " Alt-splits navigation
 nnoremap <a-h> <c-w>h
 nnoremap <a-j> <c-w>j
