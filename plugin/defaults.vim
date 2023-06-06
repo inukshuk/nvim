@@ -1,6 +1,9 @@
 set number
 set signcolumn=yes
+
 set nowrap
+set breakindent
+set linebreak
 
 set cursorline
 set cursorlineopt=number
@@ -18,6 +21,8 @@ set wildmode=longest,list,full
 set updatetime=250
 set timeout 
 set timeoutlen=300
+
+set completeopt=menuone,noselect
 
 if $COLORTERM == 'truecolor'
   set termguicolors
