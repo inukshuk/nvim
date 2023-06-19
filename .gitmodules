@@ -126,3 +126,6 @@
 [submodule "pack/colors/bruin"]
 	path = pack/colors/opt/bruin
 	url = https://git.sr.ht/~romainl/vim-bruin
+[submodule "pack/colors/opt/alabaster"]
+	path = pack/colors/opt/alabaster
+	url = https://git.sr.ht/~p00f/alabaster.nvim
