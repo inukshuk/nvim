@@ -2,6 +2,7 @@ vim.cmd.packadd 'lush'
 vim.cmd.packadd 'zenbones'
 vim.cmd.packadd 'monochrome'
 vim.cmd.packadd 'gruvbox'
+vim.cmd.packadd 'deepwhite'
 
 vim.o.termguicolors = true
 
