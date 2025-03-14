@@ -1,8 +1,6 @@
 vim.cmd.packadd 'lspconfig'
 
 local lspc = require 'lspconfig'
-local util = lspc.util
-
 
 lspc.lua_ls.setup {
   settings = {
@@ -23,10 +21,7 @@ lspc.lua_ls.setup {
   }
 }
 
-lspc.eslint.setup {
-  -- Workaround for nested .eslintrc files
-  root_dir = util.root_pattern('package.json', '.git')
-}
+lspc.eslint.setup {}
 
 lspc.ocamllsp.setup {}
 lspc.ruby_ls.setup {}
