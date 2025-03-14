@@ -8,3 +8,9 @@ require('lualine').setup {
     theme = 'auto'
   }
 }
+
+require('nvim-web-devicons').setup {
+  override_by_extension = {
+    ["liquid"] = { icon = "", color = "#67B8DE", cterm_color = "86", name = "Liquid" }
+  }
+}
