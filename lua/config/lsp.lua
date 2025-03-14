@@ -24,7 +24,7 @@ lspc.lua_ls.setup {
 lspc.eslint.setup {}
 
 lspc.ocamllsp.setup {}
-lspc.ruby_ls.setup {}
+lspc.ruby_lsp.setup {}
 lspc.jsonls.setup {}
 lspc.html.setup {}
 lspc.cssls.setup {}
