@@ -20,7 +20,7 @@ set wildmode=longest,list,full
 
 set updatetime=250
 set timeout 
-set timeoutlen=300
+set timeoutlen=700
 
 set completeopt=menuone,noselect
 
