@@ -56,9 +56,6 @@
 	path = pack/neo/opt/lush
 	url = https://github.com/rktjmp/lush.nvim.git
   ignore = dirty
-[submodule "pack/colors/opt/nord"]
-	path = pack/colors/opt/nord
-	url = https://github.com/kunzaatko/nord.nvim.git
 [submodule "pack/neo/opt/gitsigns"]
 	path = pack/neo/opt/gitsigns
 	url = https://github.com/lewis6991/gitsigns.nvim.git
