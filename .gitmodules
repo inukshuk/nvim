@@ -126,6 +126,9 @@
 [submodule "pack/colors/opt/alabaster"]
 	path = pack/colors/opt/alabaster
 	url = https://git.sr.ht/~p00f/alabaster.nvim
+[submodule "pack/colors/opt/deepwhite"]
+	path = pack/colors/opt/deepwhite
+	url = https://github.com/Verf/deepwhite.nvim.git
 [submodule "pack/neo/opt/fzf-lua"]
 	path = pack/neo/opt/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua.git
