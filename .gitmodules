@@ -132,3 +132,6 @@
 [submodule "pack/neo/opt/fzf-lua"]
 	path = pack/neo/opt/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua.git
+[submodule "pack/neo/opt/toggleterm"]
+	path = pack/neo/opt/toggleterm
+	url = https://github.com/akinsho/toggleterm.nvim.git
