@@ -135,3 +135,6 @@
 [submodule "pack/neo/opt/toggleterm"]
 	path = pack/neo/opt/toggleterm
 	url = https://github.com/akinsho/toggleterm.nvim.git
+[submodule "pack/neo/opt/trouble"]
+	path = pack/neo/opt/trouble
+	url = https://github.com/folke/trouble.nvim.git
