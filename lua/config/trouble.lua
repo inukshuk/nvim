@@ -1,4 +1,4 @@
 vim.cmd.packadd 'trouble'
 
-require('telescope').setup {
+require('trouble').setup {
 }
