@@ -108,9 +108,6 @@
 [submodule "pack/colors/opt/gruvbox"]
 	path = pack/colors/opt/gruvbox
 	url = https://github.com/ellisonleao/gruvbox.nvim
-[submodule "pack/colors/opt/alabaster"]
-	path = pack/colors/opt/alabaster
-	url = https://git.sr.ht/~p00f/alabaster.nvim
 [submodule "pack/neo/opt/fzf-lua"]
 	path = pack/neo/opt/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua.git
