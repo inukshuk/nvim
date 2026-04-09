@@ -117,3 +117,9 @@
 [submodule "pack/neo/opt/trouble"]
 	path = pack/neo/opt/trouble
 	url = https://github.com/folke/trouble.nvim.git
+[submodule "pack/colors/opt/alabaster"]
+	path = pack/colors/opt/alabaster
+	url = https://git.sr.ht/~p00f/alabaster.nvim
+[submodule "pack/core/opt/pencil"]
+	path = pack/core/opt/pencil
+	url = https://github.com/preservim/vim-pencil.git
